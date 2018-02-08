@@ -1,0 +1,317 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Wordpress Starter - Wordpress Starter</title>
+	
+	<meta name="description" content="">
+	<meta name="author" content="HeoChauA">
+	<meta name="copyright" content="HeoChauA">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2016-06-11T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{
+      background-image:url(assets/images/image_1.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-wordpress-starter">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#wordpress_l_g_t_i_sao_n_n_d_ng_wordpress" title="WordPress là gì? Tại sao nên dùng WordPress">WordPress là gì? Tại sao nên dùng WordPress</a></li>
+			<li><a href="#c_i_website_wordpress_tr_n_localhost_d_ng_xampp" title="Cài website WordPress trên localhost dùng XAMPP">Cài website WordPress trên localhost dùng XAMPP</a></li>
+			<li><a href="#t_ng_quan_wordpress_v_c_c_ch_c_n_ng_ch_nh" title="Tổng quan WordPress và các chức năng chính">Tổng quan WordPress và các chức năng chính</a></li>
+			<li><a href="#c_ch_ng_post_l_n_wordpress" title="Cách đăng Post lên WordPress">Cách đăng Post lên WordPress</a></li>
+			<li><a href="#ngh_a_c_c_ch_c_n_ng_trong_trang_t_o_post" title="Ý nghĩa các chức năng trong trang tạo Post">Ý nghĩa các chức năng trong trang tạo Post</a></li>
+			<li><a href="#t_m_hi_u_th_m_v_khu_v_c_publish_c_a_post" title="Tìm hiểu thêm về khu vực Publish của Post">Tìm hiểu thêm về khu vực Publish của Post</a></li>
+			<li><a href="#c_ch_t_o_page_trong_wordpress" title="Cách tạo Page trong WordPress">Cách tạo Page trong WordPress</a></li>
+			<li><a href="#s_kh_c_nhau_gi_a_post_v_page" title="Sự khác nhau giữa Post và Page">Sự khác nhau giữa Post và Page</a></li>
+			<li><a href="#hi_n_th_n_i_dung_m_t_page_ra_trang_ch" title="Hiển thị nội dung một Page ra trang chủ">Hiển thị nội dung một Page ra trang chủ</a></li>
+			<li><a href="#thi_t_l_p_v_qu_n_l_b_nh_lu_n_comment" title="Thiết lập và quản lý bình luận (comment)">Thiết lập và quản lý bình luận (comment)</a></li>
+			<li><a href="#ch_n_nh_t_p_tin_k_thu_t_s_v_o_n_i_dung_wordpress" title="Chèn ảnh/tập tin kỹ thuật số vào nội dung WordPress">Chèn ảnh/tập tin kỹ thuật số vào nội dung WordPress</a></li>
+			<li><a href="#c_ch_t_o_v_ch_n_gallery_nh_n_gi_n" title="Cách tạo và chèn gallery ảnh đơn giản">Cách tạo và chèn gallery ảnh đơn giản</a></li>
+			<li><a href="#h_nh_nh_c_l_u_trong_wordpress_th_n_o" title="Hình ảnh được lưu trong WordPress thế nào?">Hình ảnh được lưu trong WordPress thế nào?</a></li>
+			<li><a href="#c_ch_ch_n_video_v_o_n_i_dung" title="Cách chèn video vào nội dung">Cách chèn video vào nội dung</a></li>
+			<li><a href="#t_m_hi_u_khu_v_c_appearance_trong_dashboard" title="Tìm hiểu khu vực Appearance trong Dashboard">Tìm hiểu khu vực Appearance trong Dashboard</a></li>
+			<li><a href="#h_ng_d_n_menu_trong_wordpress" title="Hướng dẫn Menu trong WordPress">Hướng dẫn Menu trong WordPress</a></li>
+			<li><a href="#t_y_bi_n_theme_n_gi_n_v_i_customize" title="Tùy biến theme đơn giản với Customize">Tùy biến theme đơn giản với Customize</a></li>
+			<li><a href="#c_ch_c_i_t_theme_wordpress" title="Cách cài đặt theme WordPress">Cách cài đặt theme WordPress</a></li>
+			<li><a href="#h_ng_d_n_s_d_ng_widget" title="Hướng dẫn sử dụng Widget">Hướng dẫn sử dụng Widget</a></li>
+			<li><a href="#h_ng_d_n_plugin" title="Hướng dẫn plugin">Hướng dẫn plugin</a></li>
+			<li><a href="#c_ch_t_m_v_c_i_t_plugin" title="Cách tìm và cài đặt plugin">Cách tìm và cài đặt plugin</a></li>
+			<li><a href="#c_ch_s_d_ng_m_t_plugin_ti_u_bi_u" title="Cách sử dụng một plugin tiêu biểu">Cách sử dụng một plugin tiêu biểu</a></li>
+			<li><a href="#c_c_plugin_c_n_thi_t_n_n_c_i_t" title="Các plugin cần thiết nên cài đặt">Các plugin cần thiết nên cài đặt</a></li>
+			<li><a href="#qu_n_tr_ng_i_d_ng_users_tr_n_wordpress" title="Quản trị người dùng (users) trên WordPress">Quản trị người dùng (users) trên WordPress</a></li>
+			<li><a href="#t_o_ng_i_d_ng_user_m_i_v_qu_n_l" title="Tạo người dùng (user) mới và quản lý">Tạo người dùng (user) mới và quản lý</a></li>
+			<li><a href="#vai_tr_c_a_c_c_nh_m_ng_i_d_ng_user_role" title="Vai trò của các nhóm người dùng (User Role)">Vai trò của các nhóm người dùng (User Role)</a></li>
+			<li><a href="#t_y_bi_n_quy_n_ng_i_d_ng_v_i_advanced_access_manager" title="Tùy biến quyền người dùng với Advanced Access Manager">Tùy biến quyền người dùng với Advanced Access Manager</a></li>
+			<li><a href="#xu_t_nh_p_import_export_c_c_d_li_u_post" title="Xuất/Nhập (Import/Export) các dữ liệu post">Xuất/Nhập (Import/Export) các dữ liệu post</a></li>
+			<li><a href="#chi_ti_t_khu_v_c_settings" title="Chi tiết khu vực Settings">Chi tiết khu vực Settings</a></li>
+			<li><a href="#settings_general_t_ng_quan" title="Settings–> General (tổng quan)">Settings–> General (tổng quan)</a></li>
+			<li><a href="#settings_writing_thi_t_l_p_v_vi_t" title="Settings -> Writing (thiết lập về viết)">Settings -> Writing (thiết lập về viết)</a></li>
+			<li><a href="#settings_reading_thi_t_l_p_v_vi_c_c" title="Settings -> Reading (thiết lập về việc đọc)">Settings -> Reading (thiết lập về việc đọc)</a></li>
+			<li><a href="#settings_discussion_thi_t_l_p_b_nh_lu_n_lu_n" title="Settings -> Discussion (thiết lập bình luận luận)">Settings -> Discussion (thiết lập bình luận luận)</a></li>
+			<li><a href="#settings_media_thi_t_l_p_media" title="Settings -> Media (thiết lập media)">Settings -> Media (thiết lập media)</a></li>
+			<li><a href="#settings_permalink_thi_t_l_p_ng_d_n_t_nh" title="Settings -> Permalink (thiết lập đường dẫn tĩnh)">Settings -> Permalink (thiết lập đường dẫn tĩnh)</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright HeoChauA 2016<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Wordpress Starter</h1>
+	<h2>Wordpress Starter</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>Created: 06/11/2016</li>
+	<li>Latest update: 06/11/2016</li>
+	<li>By: HeoChauA</li>
+	<li>Website: <a href="http://heochaua.tk/">http://heochaua.tk/</a></li>
+	<li>Email: <a href="mailto:&#99;&#97;&#111;&#116;&#104;&#101;&#104;&#97;&#105;&#49;&#49;&#48;&#51;&#49;&#57;&#57;&#49;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#99;&#97;&#111;&#116;&#104;&#101;&#104;&#97;&#105;&#49;&#49;&#48;&#51;&#49;&#57;&#57;&#49;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Nguồn: <a href="http://thachpham.com/">http://thachpham.com/</a></p>
+	</section>
+	
+	<section id="wordpress_l_g_t_i_sao_n_n_d_ng_wordpress">
+	<div class="page-header"><h3>WordPress là gì? Tại sao nên dùng WordPress</h3><hr class="notop"></div>
+<p>
+	<strong><a href="http://thachpham.com/wordpress/wordpress-tutorials/wordpress-la-gi-va-gioi-thieu.html">WordPress l&agrave; g&igrave;? Tại sao n&ecirc;n d&ugrave;ng WordPress</a></strong></p>
+</section>
+<section id="c_i_website_wordpress_tr_n_localhost_d_ng_xampp">
+	<div class="page-header"><h3>Cài website WordPress trên localhost dùng XAMPP</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/cai-wordpress-localhost-xampp.html">C&agrave;i website WordPress tr&ecirc;n localhost d&ugrave;ng XAMPP</a></p>
+</section>
+<section id="t_ng_quan_wordpress_v_c_c_ch_c_n_ng_ch_nh">
+	<div class="page-header"><h3>Tổng quan WordPress và các chức năng chính</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/cac-chuc-nang-chinh.html">Tổng quan WordPress v&agrave; c&aacute;c chức năng ch&iacute;nh</a></p>
+</section>
+<section id="c_ch_ng_post_l_n_wordpress">
+	<div class="page-header"><h3>Cách đăng Post lên WordPress</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/cach-dang-post.html">C&aacute;ch đăng Post l&ecirc;n WordPress</a></p>
+</section>
+<section id="ngh_a_c_c_ch_c_n_ng_trong_trang_t_o_post">
+	<div class="page-header"><h3>Ý nghĩa các chức năng trong trang tạo Post</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/cac-tinh-nang-them-khi-tao-post.html">&Yacute; nghĩa c&aacute;c chức năng trong trang tạo Post</a></p>
+</section>
+<section id="t_m_hi_u_th_m_v_khu_v_c_publish_c_a_post">
+	<div class="page-header"><h3>Tìm hiểu thêm về khu vực Publish của Post</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/thiet-lap-thuoc-tinh-post.html">T&igrave;m hiểu th&ecirc;m về khu vực Publish của Post</a></p>
+</section>
+<section id="c_ch_t_o_page_trong_wordpress">
+	<div class="page-header"><h3>Cách tạo Page trong WordPress</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/cach-tao-page.html">C&aacute;ch tạo Page trong WordPress</a></p>
+</section>
+<section id="s_kh_c_nhau_gi_a_post_v_page">
+	<div class="page-header"><h3>Sự khác nhau giữa Post và Page</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/page-vs-post.html">Sự kh&aacute;c nhau giữa Post v&agrave; Page</a></p>
+</section>
+<section id="hi_n_th_n_i_dung_m_t_page_ra_trang_ch">
+	<div class="page-header"><h3>Hiển thị nội dung một Page ra trang chủ</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/hien-thi-noi-dung-page-ra-trang-chu.html">Hiển thị nội dung một Page ra trang chủ</a></p>
+</section>
+<section id="thi_t_l_p_v_qu_n_l_b_nh_lu_n_comment">
+	<div class="page-header"><h3>Thiết lập và quản lý bình luận (comment)</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/quan-ly-binh-luan.html">Thiết lập v&agrave; quản l&yacute; b&igrave;nh luận (comment)</a></p>
+</section>
+<section id="ch_n_nh_t_p_tin_k_thu_t_s_v_o_n_i_dung_wordpress">
+	<div class="page-header"><h3>Chèn ảnh/tập tin kỹ thuật số vào nội dung WordPress</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/chen-hinh-anh-vao-noi-dung.html">Ch&egrave;n ảnh/tập tin kỹ thuật số v&agrave;o nội dung WordPress</a></p>
+</section>
+<section id="c_ch_t_o_v_ch_n_gallery_nh_n_gi_n">
+	<div class="page-header"><h3>Cách tạo và chèn gallery ảnh đơn giản</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/cach-tao-gallery-anh.html">C&aacute;ch tạo v&agrave; ch&egrave;n gallery ảnh đơn giản</a></p>
+</section>
+<section id="h_nh_nh_c_l_u_trong_wordpress_th_n_o">
+	<div class="page-header"><h3>Hình ảnh được lưu trong WordPress thế nào?</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/hinh-anh-luu-trong-wordpress.html">H&igrave;nh ảnh được lưu trong WordPress thế n&agrave;o?</a></p>
+</section>
+<section id="c_ch_ch_n_video_v_o_n_i_dung">
+	<div class="page-header"><h3>Cách chèn video vào nội dung</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/chen-video-vao-noi-dung.html">C&aacute;ch ch&egrave;n video v&agrave;o nội dung</a></p>
+</section>
+<section id="t_m_hi_u_khu_v_c_appearance_trong_dashboard">
+	<div class="page-header"><h3>Tìm hiểu khu vực Appearance trong Dashboard</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/huong-dan-appearance.html">T&igrave;m hiểu khu vực Appearance trong Dashboard</a></p>
+</section>
+<section id="h_ng_d_n_menu_trong_wordpress">
+	<div class="page-header"><h3>Hướng dẫn Menu trong WordPress</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/huong-dan-menu.html">Hướng dẫn Menu trong WordPress</a></p>
+</section>
+<section id="t_y_bi_n_theme_n_gi_n_v_i_customize">
+	<div class="page-header"><h3>Tùy biến theme đơn giản với Customize</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/su-dung-customize.html">T&ugrave;y biến theme đơn giản với Customize</a></p>
+</section>
+<section id="c_ch_c_i_t_theme_wordpress">
+	<div class="page-header"><h3>Cách cài đặt theme WordPress</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/cai-dat-theme.html">C&aacute;ch c&agrave;i đặt theme WordPress</a></p>
+</section>
+<section id="h_ng_d_n_s_d_ng_widget">
+	<div class="page-header"><h3>Hướng dẫn sử dụng Widget</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/tim-hieu-widget.html">Hướng dẫn sử dụng Widget</a></p>
+</section>
+<section id="h_ng_d_n_plugin">
+	<div class="page-header"><h3>Hướng dẫn plugin</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/tim-hieu-plugin.html">Hướng dẫn plugin</a></p>
+</section>
+<section id="c_ch_t_m_v_c_i_t_plugin">
+	<div class="page-header"><h3>Cách tìm và cài đặt plugin</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/tim-va-cai-plugin.html">C&aacute;ch t&igrave;m v&agrave; c&agrave;i đặt plugin</a></p>
+</section>
+<section id="c_ch_s_d_ng_m_t_plugin_ti_u_bi_u">
+	<div class="page-header"><h3>Cách sử dụng một plugin tiêu biểu</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/cach-dung-mot-plugin-tieu-bieu.html">C&aacute;ch sử dụng một plugin ti&ecirc;u biểu</a></p>
+</section>
+<section id="c_c_plugin_c_n_thi_t_n_n_c_i_t">
+	<div class="page-header"><h3>Các plugin cần thiết nên cài đặt</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wp-plugin/plugin-nen-cai-dat.html">C&aacute;c plugin cần thiết n&ecirc;n c&agrave;i đặt</a></p>
+</section>
+<section id="qu_n_tr_ng_i_d_ng_users_tr_n_wordpress">
+	<div class="page-header"><h3>Quản trị người dùng (users) trên WordPress</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/quan-tri-user.html">Quản trị người d&ugrave;ng (users) tr&ecirc;n WordPress</a></p>
+</section>
+<section id="t_o_ng_i_d_ng_user_m_i_v_qu_n_l">
+	<div class="page-header"><h3>Tạo người dùng (user) mới và quản lý</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/tao-nguoi-dung.html">Tạo người d&ugrave;ng (user) mới v&agrave; quản l&yacute;</a></p>
+</section>
+<section id="vai_tr_c_a_c_c_nh_m_ng_i_d_ng_user_role">
+	<div class="page-header"><h3>Vai trò của các nhóm người dùng (User Role)</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/vai-tro-nhom-user.html">Vai tr&ograve; của c&aacute;c nh&oacute;m người d&ugrave;ng (User Role)</a></p>
+</section>
+<section id="t_y_bi_n_quy_n_ng_i_d_ng_v_i_advanced_access_manager">
+	<div class="page-header"><h3>Tùy biến quyền người dùng với Advanced Access Manager</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wp-plugin/tuy-bien-quyen-user-advanced-access-manager.html">T&ugrave;y biến quyền người d&ugrave;ng với Advanced Access Manager</a></p>
+</section>
+<section id="xu_t_nh_p_import_export_c_c_d_li_u_post">
+	<div class="page-header"><h3>Xuất/Nhập (Import/Export) các dữ liệu post</h3><hr class="notop"></div>
+<p>
+	<a href="https://thachpham.com/wordpress/wordpress-tutorials/import-export-tool.html">Xuất/Nhập (Import/Export) các dữ liệu post</a></p>
+</section>
+<section id="chi_ti_t_khu_v_c_settings">
+	<div class="page-header"><h3>Chi tiết khu vực Settings</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/chi-tiet-khu-vuc-settings.html">Chi tiết khu vực Settings</a></p>
+</section>
+<section id="settings_general_t_ng_quan">
+	<div class="page-header"><h3>Settings–> General (tổng quan)</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/settings-general.html">Settings&ndash;&gt; General (tổng quan)</a></p>
+</section>
+<section id="settings_writing_thi_t_l_p_v_vi_t">
+	<div class="page-header"><h3>Settings -> Writing (thiết lập về viết)</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/settings-writing.html">Settings -&gt; Writing (thiết lập về viết)</a></p>
+</section>
+<section id="settings_reading_thi_t_l_p_v_vi_c_c">
+	<div class="page-header"><h3>Settings -> Reading (thiết lập về việc đọc)</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/settings-reading-thiet-lap-ve-viec-doc.html">Settings -&gt; Reading (thiết lập về việc đọc)</a></p>
+</section>
+<section id="settings_discussion_thi_t_l_p_b_nh_lu_n_lu_n">
+	<div class="page-header"><h3>Settings -> Discussion (thiết lập bình luận luận)</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/settings-discussion.html">Settings -&gt; Discussion (thiết lập b&igrave;nh luận luận)</a></p>
+</section>
+<section id="settings_media_thi_t_l_p_media">
+	<div class="page-header"><h3>Settings -> Media (thiết lập media)</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/settings-media.html">Settings -&gt; Media (thiết lập media)</a></p>
+</section>
+<section id="settings_permalink_thi_t_l_p_ng_d_n_t_nh">
+	<div class="page-header"><h3>Settings -> Permalink (thiết lập đường dẫn tĩnh)</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/settings-permalinks.html">Settings -&gt; Permalink (thiết lập đường dẫn tĩnh)</a></p>
+</section>
+
+	</div>
+</body>
+</html>

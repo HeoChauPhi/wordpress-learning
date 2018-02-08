@@ -1,0 +1,168 @@
+<!doctype html>  
+<!--[if IE 6 ]><html lang="en-us" class="ie6"> <![endif]-->
+<!--[if IE 7 ]><html lang="en-us" class="ie7"> <![endif]-->
+<!--[if IE 8 ]><html lang="en-us" class="ie8"> <![endif]-->
+<!--[if (gt IE 7)|!(IE)]><!-->
+<html lang="en-us"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	
+	<title>Wordpress Advance - Wordpress Advance</title>
+	
+	<meta name="description" content="Nguồn: http://thachpham.com/">
+	<meta name="author" content="HeoChauA">
+	<meta name="copyright" content="HeoChauA">
+	<meta name="generator" content="Documenter v2.0 http://rxa.li/documenter">
+	<meta name="date" content="2016-06-15T00:00:00+02:00">
+	
+	<link rel="stylesheet" href="assets/css/documenter_style.css" media="all">
+	
+	
+	<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+
+	<script src="assets/js/jquery.js"></script>
+	
+	<script src="assets/js/jquery.scrollTo.js"></script>
+	<script src="assets/js/jquery.easing.js"></script>
+	
+	<script>document.createElement('section');var duration='500',easing='swing';</script>
+	<script src="assets/js/script.js"></script>
+	
+	<style>
+		html{background-color:#FFFFFF;color:#383838;}
+		::-moz-selection{background:#444444;color:#DDDDDD;}
+		::selection{background:#444444;color:#DDDDDD;}
+		#documenter_sidebar #documenter_logo{
+			background-image:url(assets/images/image_1.png);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+		}
+		a{color:#0000FF;}
+		.btn {
+			border-radius:3px;
+		}
+		.btn-primary {
+			  background-image: -moz-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -ms-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -webkit-gradient(linear, 0 0, 0 0088CC%, from(#DDDDDD), to(#0044CC));
+			  background-image: -webkit-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: -o-linear-gradient(top, #0088CC, #0044CC);
+			  background-image: linear-gradient(top, #0088CC, #0044CC);
+			  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0088CC', endColorstr='#0044CC', GradientType=0);
+			  border-color: #0044CC #0044CC #bfbfbf;
+			  color:#FFFFFF;
+		}
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  border-color: #0088CC #0088CC #bfbfbf;
+		  background-color: #0044CC;
+		}
+		hr{border-top:1px solid #EBEBEB;border-bottom:1px solid #FFFFFF;}
+		#documenter_sidebar, #documenter_sidebar ul a{background-color:#DDDDDD;color:#222222;}
+		#documenter_sidebar ul a{-webkit-text-shadow:1px 1px 0px #EEEEEE;-moz-text-shadow:1px 1px 0px #EEEEEE;text-shadow:1px 1px 0px #EEEEEE;}
+		#documenter_sidebar ul{border-top:1px solid #AAAAAA;}
+		#documenter_sidebar ul a{border-top:1px solid #EEEEEE;border-bottom:1px solid #AAAAAA;color:#444444;}
+		#documenter_sidebar ul a:hover{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_sidebar ul a.current{background:#444444;color:#DDDDDD;border-top:1px solid #444444;}
+		#documenter_copyright{display:block !important;visibility:visible !important;}
+	</style>
+	
+</head>
+<body class="documenter-project-wordpress-advance">
+	<div id="documenter_sidebar">
+		<a href="#documenter_cover" id="documenter_logo"></a>
+		<ul id="documenter_nav">
+			<li><a class="current" href="#documenter_cover">Start</a></li>
+				
+			<li><a href="#wordpress_n_ng_cao_l_g" title="WordPress nâng cao là gì?">WordPress nâng cao là gì?</a></li>
+			<li><a href="#tra_c_u_wordpress_v_i_wordpress_codex" title="Tra cứu WordPress với WordPress Codex">Tra cứu WordPress với WordPress Codex</a></li>
+			<li><a href="#t_m_hi_u_c_ch_v_n_h_nh_c_a_m_ngu_n_wordpress" title="Tìm hiểu cách vận hành của mã nguồn WordPress">Tìm hiểu cách vận hành của mã nguồn WordPress</a></li>
+			<li><a href="#c_u_tr_c_template_trong_theme_v_template_tag" title="Cấu trúc Template trong theme và Template Tag">Cấu trúc Template trong theme và Template Tag</a></li>
+			<li><a href="#s_d_ng_wp_query_v_loop_v_ng_l_p_l_y_b_i_vi_t" title="Sử dụng WP Query và Loop (vòng lặp) để lấy bài viết">Sử dụng WP Query và Loop (vòng lặp) để lấy bài viết</a></li>
+			<li><a href="#c_ch_s_d_ng_action_hook_trong_wordpress" title="Cách sử dụng Action Hook trong WordPress">Cách sử dụng Action Hook trong WordPress</a></li>
+			<li><a href="#c_ch_d_ng_filter_hook_trong_wordpress" title="Cách dùng Filter Hook trong WordPress">Cách dùng Filter Hook trong WordPress</a></li>
+			<li><a href="#th_m_tr_ng_d_li_u_custom_field_cho_b_i_vi_t" title="Thêm trường dữ liệu (custom field) cho bài viết">Thêm trường dữ liệu (custom field) cho bài viết</a></li>
+			<li><a href="#c_ch_t_t_o_m_t_meta_box_n_gi_n_to_n_t_p" title="Cách tự tạo một Meta Box đơn giản toàn tập">Cách tự tạo một Meta Box đơn giản toàn tập</a></li>
+			<li><a href="#h_ng_d_n_t_t_o_widget" title="Hướng dẫn tự tạo Widget">Hướng dẫn tự tạo Widget</a></li>
+
+		</ul>
+		<div id="documenter_copyright">Copyright HeoChauA 2016<br>
+		made with the <a href="http://rxa.li/documenter">Documenter v2.0</a> 
+		</div>
+	</div>
+	<div id="documenter_content">
+	<section id="documenter_cover">
+	<h1>Wordpress Advance</h1>
+	<h2>Wordpress Advance</h2>
+	<div id="documenter_buttons">
+		
+	</div>
+	<hr>
+	<ul>
+	<li>Created: 06/15/2016</li>
+	<li>Latest update: 06/15/2016</li>
+	<li>By: HeoChauA</li>
+	<li>Website: <a href="http://heochaua.tk/">http://heochaua.tk/</a></li>
+	<li>Email: <a href="mailto:&#99;&#97;&#111;&#116;&#104;&#101;&#104;&#97;&#105;&#49;&#49;&#48;&#51;&#49;&#57;&#57;&#49;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;">&#99;&#97;&#111;&#116;&#104;&#101;&#104;&#97;&#105;&#49;&#49;&#48;&#51;&#49;&#57;&#57;&#49;&#64;&#103;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;</a></li>
+	</ul>
+	<p>Nguồn: <a href="http://thachpham.com/">http://thachpham.com/</a></p>
+	</section>
+	
+	<section id="wordpress_n_ng_cao_l_g">
+	<div class="page-header"><h3>WordPress nâng cao là gì?</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-development/gioi-thieu-serie-wordpress-nang-cao.html">WordPress n&acirc;ng cao l&agrave; g&igrave;?</a></p>
+</section>
+<section id="tra_c_u_wordpress_v_i_wordpress_codex">
+	<div class="page-header"><h3>Tra cứu WordPress với WordPress Codex</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-development/tra-cuu-wordpress-voi-wordpress-codex.html">Tra cứu WordPress với WordPress Codex</a></p>
+</section>
+<section id="t_m_hi_u_c_ch_v_n_h_nh_c_a_m_ngu_n_wordpress">
+	<div class="page-header"><h3>Tìm hiểu cách vận hành của mã nguồn WordPress</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-development/tim-hieu-cach-van-hanh-cua-ma-nguon-wordpress.html">T&igrave;m hiểu c&aacute;ch vận h&agrave;nh của m&atilde; nguồn WordPress</a></p>
+</section>
+<section id="c_u_tr_c_template_trong_theme_v_template_tag">
+	<div class="page-header"><h3>Cấu trúc Template trong theme và Template Tag</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-development/cau-truc-template-trong-theme-va-template-tag.html">Cấu tr&uacute;c Template trong theme v&agrave; Template Tag</a></p>
+</section>
+<section id="s_d_ng_wp_query_v_loop_v_ng_l_p_l_y_b_i_vi_t">
+	<div class="page-header"><h3>Sử dụng WP Query và Loop (vòng lặp) để lấy bài viết</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-development/su-dung-wp-query-va-loop-vong-lap-de-lay-bai-viet.html">Sử dụng WP Query v&agrave; Loop (v&ograve;ng lặp) để lấy b&agrave;i viết</a></p>
+</section>
+<section id="c_ch_s_d_ng_action_hook_trong_wordpress">
+	<div class="page-header"><h3>Cách sử dụng Action Hook trong WordPress</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-development/cach-su-dung-action-hook-trong-wordpress.html">C&aacute;ch sử dụng Action Hook trong WordPress</a></p>
+</section>
+<section id="c_ch_d_ng_filter_hook_trong_wordpress">
+	<div class="page-header"><h3>Cách dùng Filter Hook trong WordPress</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-development/cach-dung-filter-hook-trong-wordpress.html">C&aacute;ch d&ugrave;ng Filter Hook trong WordPress</a></p>
+</section>
+<section id="th_m_tr_ng_d_li_u_custom_field_cho_b_i_vi_t">
+	<div class="page-header"><h3>Thêm trường dữ liệu (custom field) cho bài viết</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-tutorials/huong-dan-wordpress-custom-post-field.html">Th&ecirc;m trường dữ liệu (custom field) cho b&agrave;i viết</a></p>
+</section>
+<section id="c_ch_t_t_o_m_t_meta_box_n_gi_n_to_n_t_p">
+	<div class="page-header"><h3>Cách tự tạo một Meta Box đơn giản toàn tập</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-development/cach-tao-meta-box-toan-tap.html">C&aacute;ch tự tạo một Meta Box đơn giản to&agrave;n tập</a></p>
+</section>
+<section id="h_ng_d_n_t_t_o_widget">
+	<div class="page-header"><h3>Hướng dẫn tự tạo Widget</h3><hr class="notop"></div>
+<p>
+	<a href="http://thachpham.com/wordpress/wordpress-development/huong-dan-tao-widget.html">Hướng dẫn tự tạo Widget</a></p>
+</section>
+
+	</div>
+</body>
+</html>
